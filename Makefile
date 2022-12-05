@@ -15,7 +15,8 @@ INCLS = \
   Point.h \
   ReallySimpleDistanceCalculator.h \
   SimpleDistanceCalculator.h \
-  SphereDistanceCalculator.h
+  SphereDistanceCalculator.h \
+  SphereDistanceHaversineCalculator.h
 
 CC = g++
 CFLAGS = -I .
