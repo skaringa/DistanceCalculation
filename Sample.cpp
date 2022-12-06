@@ -44,7 +44,7 @@ int main()
 	
 	// very small distance 
 	Point near0(50.0, 8.0, "testpoint");
-	Point near1m(50.0000009, 8.0, "testpoint+1m");
+	Point near1m(50.000008985, 8.0, "testpoint+1m");
 	compareDistanceCalculators(near0, near1m, calcs);
 	Point near1cm(50.00000009, 8.0, "testpoint+1cm");
 	compareDistanceCalculators(near0, near1cm, calcs);
