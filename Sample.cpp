@@ -41,7 +41,11 @@ int main()
 	Point berlin(52.5164, 13.3777, "Berlin Brandenburg Gate");
 	Point lissabon(38.692668, -9.177944, "Lisbon Tagus bridge");
 	compareDistanceCalculators(berlin, lissabon, calcs);
-	
+
+	// negativ coordinates
+	Point montevideo(-34.81816, -56.21383, "Montevideo, Uruguay");
+	compareDistanceCalculators(berlin, montevideo, calcs);
+
 	// very small distance 
 	Point near0(50.0, 8.0, "testpoint");
 	Point near1m(50.000008985, 8.0, "testpoint+1m");
